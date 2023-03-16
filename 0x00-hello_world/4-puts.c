@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-puts("\"Progtamming is like building a multiligual puzz le");
+puts("\"Progtamming is like building a multiligual puzz le ");
 return (0);
 }
