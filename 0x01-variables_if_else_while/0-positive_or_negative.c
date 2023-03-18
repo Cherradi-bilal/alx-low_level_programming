@@ -1,23 +1,21 @@
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 int main() {
     srand(time(NULL)); // do not touch this code
 
     int n = rand() % 201 - 100; // do not touch this code
 
-    std::cout << "The number " << n << " is ";
+    printf("The number %d is ", n);
 
     if (n > 0) {
-        std::cout << "positive";
+        printf("positive\n");
     } else if (n == 0) {
-        std::cout << "zero";
+        printf("zero\n");
     } else {
-        std::cout << "negative";
+        printf("negative\n");
     }
-
-    std::cout << std::endl;
 
     return 0;
 }
