@@ -1,22 +1,10 @@
-#include <unistd.h>
+#include <stdio.h>
 
 /**
- * main - Entry point. Prints all possible different combinations of three digits.
+ * main - Prints all possible combinations of three digits
  *
- * Return: Always 0.
+ * Return: Always 0
  */
-void print_combination(int a, int b, int c)
-{
-    putchar(a + '0');
-    putchar(b + '0');
-    putchar(c + '0');
-    if (a != 7 || b != 8 || c != 9)
-    {
-        putchar(',');
-        putchar(' ');
-    }
-}
-
 int main(void)
 {
     int i, j, k;
@@ -27,11 +15,21 @@ int main(void)
         {
             for (k = j + 1; k < 10; k++)
             {
-                print_combination(i, j, k);
+                putchar(i % 10 + '0');
+                putchar(j % 10 + '0');
+                putchar(k % 10 + '0');
+
+                if (i == 7 && j == 8 && k == 9)
+                    break;
+
+                putchar(',');
+                putchar(' ');
             }
         }
     }
+
     putchar('\n');
+
     return (0);
 }
 
