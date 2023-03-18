@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: loop to iterate over the numbers 0 through 9
+ */
 int main(void)
 {
     int i;
