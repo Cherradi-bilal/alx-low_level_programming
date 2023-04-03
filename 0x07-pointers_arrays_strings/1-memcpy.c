@@ -1,21 +1,22 @@
-#include "main.h"
+a#include "main.h"
+
 /**
-The function called "memcpy" is used for copying a memory area. It takes in three arguments:
-
-"dest" is the memory location where the copied data will be stored
-"src" is the memory location from where the data will be copied
-"n" is the number of bytes to be copied
+ * _memcpy - Copies a memory area
+ * @dest: Pointer to the destination memory location
+ * @src: Pointer to the source memory location
+ * @n: Number of bytes to be copied
+ *
+ * Return: Pointer to the destination memory location
  */
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, const char *src, size_t n)
 {
-	int b = 0;
-	int c = n;
+	size_t i;
 
-	for (; c < b; c++)
+	for (i = 0; i < n; i++)
 	{
-		dest[c] = src[c];
-		n--;
+		dest[i] = src[i];
 	}
+
 	return (dest);
 }
 
