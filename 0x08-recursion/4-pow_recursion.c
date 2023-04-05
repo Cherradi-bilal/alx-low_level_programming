@@ -1,8 +1,3 @@
-/*                                                                                                                                      
- * File: 4-pow_recursion.c                                                                                                              
- * Auth: sam                                                                                                                            
- */                                                                                                                                     
-                                                                                                                                        
 #include "main.h"                                                                                                                       
                                                                                                                                         
 /**                                                                                                                                     

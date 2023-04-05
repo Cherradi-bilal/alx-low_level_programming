@@ -1,8 +1,3 @@
-/*                                                                                                                                    
- * File: 101-wildcmp.c                                                                                                                
- * Auth: sam                                                                                                                          
- */                                                                                                                                   
-                                                                                                                                      
 #include "main.h"                                                                                                                     
                                                                                                                                       
 int strlen_no_wilds(char *str);                                                                                                       
