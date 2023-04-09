@@ -1,18 +1,12 @@
 #include "main.h"
 #include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-void _puts(char *str)
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
+void _puts(char *s)
 {
-int i = 0;
-while (str[i])
-{
-_putchar(str[i]);
-i++;
+    puts(s);
 }
-_putchar('\n');
-}
+
 
