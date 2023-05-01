@@ -9,7 +9,8 @@
  * @next: points to next node
  * This defines the structure of a node in a singly linked list.
  * alx project
- *
+ */
+
  typedef struct listint_s
 {
 	int n;
