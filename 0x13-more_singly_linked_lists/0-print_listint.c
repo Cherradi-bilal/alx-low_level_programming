@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * The purpose of the function print_listint is to display all the elements in a linked list
+ * function print_listint is to display all the elements in a linked list
  * @h:a linked list of listint_t type that needs to be printed
  * Return: number of nodes
 */
